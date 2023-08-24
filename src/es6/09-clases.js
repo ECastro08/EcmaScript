@@ -109,4 +109,4 @@ const auto2 = new auto(2023, 1400, 'azul oscuro');
 
 auto1.acelerar();
 
-auto1.get
+
