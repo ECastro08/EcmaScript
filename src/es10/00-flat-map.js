@@ -1,0 +1,21 @@
+// Flat
+const array = [1,1,2,3,4, [1,3,5,6, [1,2,4]]]
+const result = array.flat(2);
+console.log(result) 
+
+const array2 = [1, 2, [3, 4, [5, 6]]];
+const result2 = array2.flat() 
+console.log(result2) 
+
+const array3 = [1, 2, [3, 4, [5, 6]]]
+const result3 = array3.flat(2) 
+console.log(result3)
+
+const array4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]]
+const result4 = array4.flat(Infinity) 
+console.log(result4)
+
+// flatmap
+
+const arr = [1, 2, 3, 4, 5];
+console.log(arr.flatMap(v => [v, v * 2]));
